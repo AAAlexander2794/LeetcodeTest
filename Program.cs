@@ -2,6 +2,6 @@
 using LeetcodeTest.Problems;
 
 Console.WriteLine("Hello, World!");
-var sol = new Solution();
+var sol = new Problem_26.Solution();
 
-Console.WriteLine(sol.IsValid("[([]])"));
+Console.WriteLine(sol.RemoveDuplicates(new int[] { 1, 1, 2 }));
