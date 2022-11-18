@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using LeetcodeTest.Problems;
+using LeetcodeTest.Not_Complete_Problems;
 
 Console.WriteLine("Hello, World!");
-var sol = new Problem_26.Solution();
+var sol = new Problem_0002.Solution();
 
-Console.WriteLine(sol.RemoveDuplicates(new int[] { 1, 1, 2 }));
+Console.WriteLine(sol.AddTwoNumbers(new Problem_0002.Solution.ListNode(2), new Problem_0002.Solution.ListNode(3)));

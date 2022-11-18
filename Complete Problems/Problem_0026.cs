@@ -9,7 +9,7 @@ namespace LeetcodeTest.Problems
     /// <summary>
     /// Done
     /// </summary>
-    internal class Problem_26
+    internal class Problem_0026
     {
         public class Solution
         {
