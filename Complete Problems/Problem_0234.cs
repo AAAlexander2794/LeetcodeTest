@@ -35,17 +35,11 @@ namespace LeetcodeTest._Not_Complete_Problems
                 int halfCount;
                 if (count % 2 == 0) halfCount = count / 2;
                 else halfCount = (count - 1) / 2;
-                //for (int i = 0; i < halfCount; i++)
-                //{
-                //    Console.Write($"*{list[i]} {list[count - i]}*");
-                //    if (list[i] != list[count - i - 1]) return false;
-                //}
-                for (int i = 0; i < list.Count; i++)
+                for (int i = 0; i < halfCount; i++)
                 {
-                    if (i == halfCount) break;
-                    Console.Write($"*{list[i]} {list[count - i]}*");
                     if (list[i] != list[count - i - 1]) return false;
                 }
+
                 return true;
             }
         }
