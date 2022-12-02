@@ -2,6 +2,6 @@
 using LeetcodeTest._Not_Complete_Problems;
 
 Console.WriteLine("Hello, World!");
-var sol = new Problem_0383.Solution();
+var sol = new Problem_0907.Solution();
 
-Console.WriteLine(sol.CanConstruct("aa", "aab"));
+Console.WriteLine(sol.SumSubarrayMins(new int[] {3, 1, 2, 4}));

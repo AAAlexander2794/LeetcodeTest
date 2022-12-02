@@ -38,7 +38,6 @@ namespace LeetcodeTest._Not_Complete_Problems
                     sChars[s[i] - 'a']--;
                     sChars[s[i + p.Length] - 'a']++;
                 }
-                if (sChars.SequenceEqual(pChars)) result.Add(i);
                 return result;
             }
 
