@@ -4,4 +4,4 @@ using LeetcodeTest._Not_Complete_Problems;
 Console.WriteLine("Hello, World!");
 var sol = new Problem_0907.Solution();
 
-Console.WriteLine(sol.SumSubarrayMins(new int[] {3, 1, 2, 4}));
+Console.WriteLine(10^2);

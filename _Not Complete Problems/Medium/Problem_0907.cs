@@ -30,8 +30,8 @@ namespace LeetcodeTest._Not_Complete_Problems
                 int min = arr[0];
                 for (int i = 1; i < arr.Length - 1; i++)
                 {
-                    if (arr[i] > arr[i - 1])
-                    sum += (arr[i] - arr[i - 1]) * 
+                    // if (arr[i] > arr[i - 1])
+                    //sum += (arr[i] - arr[i - 1]) * 
                 }
                 //
                 arr.ToList().Sort();

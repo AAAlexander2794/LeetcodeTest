@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetcodeTest.Problems
 {
-    internal class Old_Problem_0264
+    internal class Problem_0264
     {
         public class Solution
         {
