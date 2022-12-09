@@ -13,6 +13,55 @@ namespace LeetcodeTest._Not_Complete_Problems.Easy
             public string ReverseWords(string s)
             {
                 if (s == null) return null;
+                if (s == "" || s.Trim() == "") return "";
+                //
+                string result = "";
+                //
+                string word = "";
+                //
+                int i = 0;
+                // 
+                while (i < s.Length)
+                {
+                    //Console.Write(i + " ");
+                    // Если пробел
+                    if (s[i] == ' ')
+                    {
+                        
+                        // Записываем полученное слово наоборот
+                        result = AddWordReverse(word, result);
+                        // Обнуляем
+                        word = "";
+                        // Добавляем пробел
+                        result += ' ';
+                    }
+                    //
+                    else
+                    {
+                        word += s[i];
+                    }
+                    //
+                    i++;
+                }
+                if (word != "") result = AddWordReverse(word, result);
+                return result;
+            }
+
+            string AddWordReverse(string word, string words)
+            {
+                for (int j = word.Length - 1; j >= 0; j--)
+                {
+                    words += word[j];
+                }
+                return words;
+            }
+        }
+
+        public class SolutionFirstTry
+        {
+            public string ReverseWords(string s)
+            {
+                if (s == null) return null;
                 if (s == "") return "";
                 var words = s.Split(' ');
                 s = "";
