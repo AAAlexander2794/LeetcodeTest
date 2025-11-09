@@ -7,12 +7,13 @@ using LeetcodeTest._Not_Complete_Problems.Medium;
 Console.WriteLine("Hello, World!");
 
 //
-var sol = new Problem_1957.Solution();
+var sol = new Problem_3005.Solution();
 
-var nums = "aab";
+var nums = new int[] { 1, 2, 2, 3, 1, 4 };
 
 
-Console.WriteLine(sol.MakeFancyString(nums));
+
+Console.WriteLine(sol.MaxFrequencyElements(nums));
 //Console.WriteLine(1 ^ 3);
 
 //
