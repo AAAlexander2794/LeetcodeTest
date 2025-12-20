@@ -8,13 +8,13 @@ using LeetcodeTest.Quest_Math;
 Console.WriteLine("Hello, World!");
 
 //
-var sol = new Q2.Solution();
+var sol = new Problem_0944.Solution();
 
 string[] code = ["MI", "b_"];
 string[] businessLine = ["pharmacy", "pharmacy"];
 bool[] isActive = [true, true];
 
-Console.WriteLine(sol.PivotInteger(8));
+Console.WriteLine(sol.MinDeletionSize(["rrjk", "furt", "guzm"]));
 //Console.WriteLine(1 ^ 3);
 
 //
