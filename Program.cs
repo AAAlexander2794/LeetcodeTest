@@ -8,13 +8,13 @@ using LeetcodeTest.Quest_Math;
 Console.WriteLine("Hello, World!");
 
 //
-var sol = new LeetcodeTest.Quest_Math.Level_2.Q2.Solution();
+var sol = new LeetcodeTest.Quest_Math.Level_3.Q1.Solution();
 
 string[] code = ["MI", "b_"];
 string[] businessLine = ["pharmacy", "pharmacy"];
 bool[] isActive = [true, true];
 
-Console.WriteLine(sol.SmallestRepunitDivByK(3));
+Console.WriteLine(sol.GetPermutation(3, 3));
 //Console.WriteLine(1 ^ 3);
 
 //
