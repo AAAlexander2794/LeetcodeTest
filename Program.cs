@@ -10,12 +10,17 @@ Console.WriteLine("Hello, World!");
 //
 var sol = new LeetcodeTest.Quest_Math.Level_3.Q1.Solution();
 
-string[] code = ["MI", "b_"];
-string[] businessLine = ["pharmacy", "pharmacy"];
-bool[] isActive = [true, true];
+
+
+
+Console.WriteLine(grade);
+
+Console.WriteLine();
 
 Console.WriteLine(sol.GetPermutation(3, 3));
 //Console.WriteLine(1 ^ 3);
 
 //
 Console.ReadLine();
+
+
