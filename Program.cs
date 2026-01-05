@@ -13,7 +13,7 @@ var sol = new LeetcodeTest.Quest_Math.Level_3.Q1.Solution();
 
 
 
-Console.WriteLine(grade);
+Console.WriteLine();
 
 Console.WriteLine();
 
