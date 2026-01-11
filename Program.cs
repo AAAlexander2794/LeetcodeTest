@@ -8,16 +8,15 @@ using LeetcodeTest.Quest_Math;
 Console.WriteLine("Hello, World!");
 
 //
-var sol = new LeetcodeTest.Quest_Math.Level_3.Q1.Solution();
+var sol = new Problem_2044.Solution();
 
-
-
-
-Console.WriteLine();
+int[] nums = { 3, 1 };
 
 Console.WriteLine();
 
-Console.WriteLine(sol.GetPermutation(3, 3));
+Console.WriteLine();
+
+Console.WriteLine(sol.CountMaxOrSubsets(nums));
 //Console.WriteLine(1 ^ 3);
 
 //
